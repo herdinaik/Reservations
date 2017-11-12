@@ -4,21 +4,22 @@
   <meta charset="UTF-8">
   <title>Submit Reservation</title>
   <link rel="stylesheet" type="text/css" href="/css/reservation.css" />
+   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
 <body>
 
   <form id="reservationForm">
     <label>Facility ID:</label>
-    <input name="resourceId" type="input" />
+    <input name="resourceId" type="input" class="input"/>
   
     <label>Start Date:</label>
-    <input name="fromDate"   type="date" />
+    <input name="fromDate"   type="date" class="input" onfocus="(this.type='date')"/>
   
     <label>End Date:</label>
-    <input name="toDate"     type="date" />
+    <input name="toDate"     type="date" class="input"/>
   
     <label>Reserved By:</label>
-    <input name="owner"      type="input" size="64" />
+    <input name="owner"      type="input" size="64" class="input"/>
   
     <button id="submitReservation">Place Reservation</button>
   

@@ -1,5 +1,10 @@
 @CHARSET "ISO-8859-1";
 
+body{
+	background-color: #f2f2f2;
+	font-family: 'Fjalla One', sans-serif;
+}
+
 label,
 button {
     display: block;
@@ -8,4 +13,49 @@ button {
 
 .message {
     display: none;
+}
+
+#reservationForm{
+	background-color: #7c7c7c;
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
+	margin-top: 2%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	box-shadow: 5px 5px 5px #646464;
+}
+
+input{
+	padding: 1%;
+    width: 50%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+label{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	border-color: #7e7e7e;
+	text-shadow: -1px 0 #414f07, 0 1px #414f07, 1px 0 #414f07, 0 -1px #414f07;	
+	color: #c8ef10;
+}
+
+#submitReservation{
+	padding: 1%;
+    width: 53%;
+    background-color: #c8ef10;
+    border-color: #53630b;
+    border-width: 2px;
+    margin-left: 23.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+}
+
+#submitReservation:hover{
+    background-color: #2e2e2e;
+	color: #c8ef10;
+	border-color: #7e7e7e;
+	text-shadow: -1px 0 #414f07, 0 1px #414f07, 1px 0 #414f07, 0 -1px #414f07;	
 }
