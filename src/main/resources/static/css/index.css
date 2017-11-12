@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+background-color: #f2f2f2;
+}
+
+.button{
+	width: 25%;
+	height: 200px;
+	float: left;
+	padding-top: 5%;
+	margin-left: 15%;
+	margin-top: 10%;
+	text-align: center;
+	background-color: #7c7c7c;
+	border-width:2px;
+    border-style:solid;
+    border-color:#4d4d4d;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+.button:hover{
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.text{
+	color: #c8ef10;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: -1px 0 #53630b, 0 1px #53630b, 1px 0 #53630b, 0 -1px #53630b;
+	align: bottom;
+}
+
+ul.box{
+	list-style-type: none;
+	
+}
