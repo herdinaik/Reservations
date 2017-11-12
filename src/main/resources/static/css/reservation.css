@@ -5,12 +5,6 @@ body{
 	font-family: 'Fjalla One', sans-serif;
 }
 
-label,
-button {
-    display: block;
-    margin-top: 15px;
-}
-
 .message {
     display: none;
 }
@@ -38,6 +32,8 @@ label{
 	border-color: #7e7e7e;
 	text-shadow: -1px 0 #414f07, 0 1px #414f07, 1px 0 #414f07, 0 -1px #414f07;	
 	color: #c8ef10;
+	display: block;
+    margin-top: 15px;
 }
 
 #submitReservation{
@@ -51,6 +47,8 @@ label{
     margin-bottom: 5%;
     font-family: 'Fjalla One', sans-serif;
 	font-size: 18px;
+	display: block;
+    margin-top: 15px;
 }
 
 #submitReservation:hover{
